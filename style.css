@@ -1,44 +1,44 @@
 body {
-  min-width: 1040px;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Arial", sans-serif;
-  color: #404040;
-  background-color: white;
+margin: 0;
+padding: 0;
+min-width: 1040px;
+font-size: 16px;
+line-height: 30px;
+font-family: “Arial”, sans-serif;
+color: #404040;
+background-color: white;
 }
 
 .container {
-	width: 1015px;
-	margin: 0 auto;
+width: 1020px;
+margin: 0 auto;
 }
 
-.clearfix {
-	content: "";
-	display: table;
-	clear: both;
+.clearfix::after {
+content: “”;
+display: table;
+clear: both;
 }
 
-.page-header {
-	min-height: 590px;
-	padding-top: 60px;
-	background-image: url("img/wheat-back.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	
+header {
+min-height: 490px;
+padding-top: 60px;
+background-image: url("img/wheat-back.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-position: bottom;
 }
 
-.page-header,
-.page-footer {
-	color: #ffffff;
-	background-color: #000000;
+header .container {
+width: 800px;
+margin: 0 auto;
 }
 
-.page-header .container {
-	width:800px;
-	margin: 0 auto;
+header,
+footer {
+color: #ffffff;
+background-color: #000000;
 }
 
 .header-top {
@@ -49,46 +49,45 @@ margin-bottom: 116px;
 }
 
 .header-logo {
-	float: left;
-	width: 140px;
-	height: 76px;
+float: left;
+width: 140px;
+height: 76px;
 }
 
 .header-logo img {
-	width: 140px;
-	height: 76px;
+width: 140px;
+height: 76px;
 }
 
-
-.main-nav{
-	float: left;
-	width: 600px;
-	margin: 10px 0 3px 60px;
-	padding: 14px 0 13px;
-	list-style: none;
-	border-top: 1px solid rgba(255, 255, 255, 0.2);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+.main-nav {
+float: right;
+width: 600px;
+margin: 10px 0 3px 60px;
+padding: 14px 0 13px;
+list-style: none;
+border-top: 1px solid rgba(255, 255, 255, 0.2);
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.main-nav li{
-	float: left;
-	margin-right: 50px;
-	text-transform: uppercase;
+.main-nav li {
+float: left;
+margin-right: 54.5px;
+text-transform: uppercase;
 }
 
-.main-nav li:last-child{
-	margin-right: 0;
+.main-nav li:last-child {
+margin-right: 0;
 }
 
-.main-nav a{
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;	
+.main-nav a {
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
 }
 
-.main-nav a:hover{
-	text-decoration: underline;
-	color: #ffcb78;
+.main-nav a:hover {
+color: #ffcb78;
+text-decoration: underline;
 }
 
 .main-nav a:active {
@@ -105,26 +104,49 @@ line-height: 70px;
 text-align: center;
 }
 
-.features {
-	padding-top:50px;
-	padding-bottom: 55px;
+
+.feature {
+	padding-top: 30px;
 }
 
-.feature .container{
-	margin: auto;
+.feature .container {
 	width: 800px;
+	margin: auto;	
+}
+
+.feature h2{
+	font-size: 40px;
+	padding: 0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	margin: 0;
+
 }
 
 .feature-item {
-  float: left;
-  padding-top: 90px;
-  text-align: center;
-  border-left: 1px solid #d9d9d9;
-  width: 333px;
-  padding: 30px;
-  margin: auto;
+	padding-top: 0;
+	display: inline-block;
+	margin: 0;
+	margin-top: 40px;
+
 }
 
-.feature-item:last-child {
-	border-right: 1px solid #d9d9d9;
+.feature-kcal {
+	width: 395px;
+	float: left;
+	border-left: 1px solid black;
+	
+
+}
+
+.feature-kcal:last-child {
+border-right: 1px solid black;
+
+}
+
+.feature-kcal h3{
+	padding: 0;
+	margin:0;
+	font-size: 40px;
+
 }
