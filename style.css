@@ -105,24 +105,26 @@ line-height: 70px;
 text-align: center;
 }
 
-.feature {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	}
+.features {
+	padding-top:50px;
+	padding-bottom: 55px;
+}
 
 .feature .container{
+	margin: auto;
 	width: 800px;
-	margin:0;
 }
 
-.feature-item{
-	float: left;
-  	padding-top: 90px;
-  	text-align: center;
-  	border-left: 1px solid #d9d9d9;
-
+.feature-item {
+  float: left;
+  padding-top: 90px;
+  text-align: center;
+  border-left: 1px solid #d9d9d9;
+  width: 333px;
+  padding: 30px;
+  margin: auto;
 }
 
-.block3 {
-
+.feature-item:last-child {
+	border-right: 1px solid #d9d9d9;
 }
