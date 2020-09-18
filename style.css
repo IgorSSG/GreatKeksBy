@@ -108,7 +108,7 @@ text-align: center;
 .feature {
 	padding-top: 50px;
 	width: 1015px;
-
+	margin: 0 auto;
 }
 
 .feature .container {
@@ -143,7 +143,48 @@ text-align: center;
 	margin-top: -30px;
 	height: 820px;
 	position: relative;
-	
+	padding-left: 30px;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+.feature-item:nth-child(even) {
+	border-right: 1px solid black;
+}
+
+.feature-params {
+	border-collapse: collapse;
+}
+.feature-params td {
+	padding: 0px 10px;
+}
+.feature-params, .feature-params td {
+	border: 1px solid #777;
+}
+
+.bottle-holder {
+	position: relative;
+}
+
+.feature-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 140px;
+}
+
+.feature-item .btn {
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid brown;
+	text-transform: uppercase;
+	padding: 0 10px;
+	color: brown;
+	line-height: 32px;
+}
+
+.feature-item .btn.btn-inverse {
+	color: white;
+	background: brown;
 }
 
 .right-description,
