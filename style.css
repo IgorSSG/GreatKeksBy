@@ -20,6 +20,7 @@ display: table;
 clear: both;
 }
 
+
 header {
 min-height: 490px;
 padding-top: 60px;
@@ -28,6 +29,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-position: bottom;
+
 }
 
 header .container {
@@ -113,7 +115,7 @@ text-align: center;
 
 .feature .container {
 	width: 800px;
-	margin: auto;	
+	margin: auto;
 }
 
 .feature h2{
@@ -129,19 +131,19 @@ text-align: center;
 
 .feature-items {
 	padding-top: 0;
-	
+
 	margin: 0;
-	margin-top: 60px;
-	
+	margin-top: 30px;
+
 
 }
 
 .feature-item {
-	width: 395px;
+	width: 400px;
 	float: left;
 	border-left: 1px solid black;
 	margin-top: -30px;
-	height: 820px;
+	height: 760px;
 	position: relative;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -194,3 +196,4 @@ text-align: center;
 }
 
 
+<script src="http://localhost:35729/livereload.js"></script>
