@@ -108,7 +108,7 @@ text-align: center;
 
 
 .feature {
-	padding-top: 40px;
+	padding-top: 60px;
 	width: 1015px;
 	margin: 0 auto;
 }
@@ -116,13 +116,14 @@ text-align: center;
 .feature .container {
 	width: 800px;
 	margin: auto;
+  padding-top: 0px;
 }
 
 .feature h2{
 	font-size: 40px;
 	color: black;
 	font-weight: bold;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 0;
 	text-transform: uppercase;
 	margin-bottom: 105px;
@@ -151,6 +152,13 @@ text-align: center;
 	padding-right: 30px;
   padding-top: 0;
 	box-sizing: border-box;
+
+}
+
+.feature-item h3{
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 0;
 
 }
 .feature-item:nth-child(even) {
