@@ -126,7 +126,9 @@ text-align: center;
 	margin-left: 0;
 	text-transform: uppercase;
 	margin-bottom: 105px;
+  padding-top: 0px;
 	height: 60px;
+
 }
 
 .feature-items {
@@ -147,7 +149,9 @@ text-align: center;
 	position: relative;
 	padding-left: 30px;
 	padding-right: 30px;
+  padding-top: 0;
 	box-sizing: border-box;
+
 }
 .feature-item:nth-child(even) {
 	border-right: 1px solid black;
