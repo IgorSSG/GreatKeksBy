@@ -20,6 +20,7 @@ display: table;
 clear: both;
 }
 
+
 header {
 min-height: 490px;
 padding-top: 60px;
@@ -28,6 +29,7 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 background-position: bottom;
+
 }
 
 header .container {
@@ -106,7 +108,7 @@ text-align: center;
 
 
 .feature {
-	padding-top: 50px;
+	padding-top: 75px;
 	width: 1015px;
 	margin: 0 auto;
 }
@@ -114,23 +116,41 @@ text-align: center;
 .feature .container {
 	width: 800px;
 	margin: auto;
+<<<<<<< HEAD
+=======
+  padding-top: 0px;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 }
 
 .feature h2{
 	font-size: 40px;
 	color: black;
 	font-weight: bold;
+<<<<<<< HEAD
 	margin-top: 30px;
+=======
+	margin-top: 0px;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 	margin-left: 0;
 	text-transform: uppercase;
 	margin-bottom: 105px;
+  padding-top: 20px;
+
 	height: 60px;
+
 }
 
 .feature-items {
+<<<<<<< HEAD
 	padding-top: 0;
 	margin: 0;
 	margin-top: 60px;
+=======
+	padding-top: 20px;
+
+	margin: 0;
+	margin-top: 0;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 
 
 }
@@ -140,11 +160,20 @@ text-align: center;
 	float: left;
 	border-left: 1px solid black;
 	margin-top: -30px;
-	height: 820px;
+	height: 760px;
 	position: relative;
 	padding-left: 30px;
 	padding-right: 30px;
+  padding-top: 0;
 	box-sizing: border-box;
+
+}
+
+.feature-item h3{
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 0;
+
 }
 .feature-item:nth-child(even) {
 	border-right: 1px solid black;
@@ -191,4 +220,10 @@ text-align: center;
 
 	height: 100px;
 }
+<<<<<<< HEAD
   <script src="http://localhost:35729/livereload.js"></script>
+=======
+
+
+<script src="http://localhost:35729/livereload.js"></script>
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
