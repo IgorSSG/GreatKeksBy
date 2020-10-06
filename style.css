@@ -108,6 +108,7 @@ text-align: center;
 
 
 .feature {
+
 	padding-top: 80px;
 	width: 1015px;
 	margin: 0 auto;
@@ -117,7 +118,7 @@ text-align: center;
 	width: 800px;
 	margin: auto;
   padding-top: 0px;
-  
+
 
 }
 
@@ -125,22 +126,20 @@ text-align: center;
 	font-size: 40px;
 	color: black;
 	font-weight: bold;
-
-
-
 	margin-left: 0;
 	text-transform: uppercase;
 	margin-bottom: 105px;
-  padding-top: 10px;
+  padding-top: 0px;
+	padding-bottom: 10px;
 
-	line-height: 50px;
+	line-height: 40px;
 
 }
 
 .feature-items {
 
 	margin: 0;
-	margin-top: 60px;
+
 
 	margin: 0;
 	margin-top: 0;
@@ -219,13 +218,5 @@ text-align: center;
 
 	height: 100px;
 }
-<<<<<<< HEAD
+
   <script src="http://localhost:35729/livereload.js"></script>
-=======
-
-
-<script src="http://localhost:35729/livereload.js"></script>
-<<<<<<< HEAD
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
-=======
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
