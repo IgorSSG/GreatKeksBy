@@ -117,6 +117,10 @@ text-align: center;
 	width: 800px;
 	margin: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  padding-top: 0px;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 =======
   padding-top: 0px;
 >>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
@@ -127,7 +131,11 @@ text-align: center;
 	color: black;
 	font-weight: bold;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-top: 30px;
+=======
+	margin-top: 0px;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 =======
 	margin-top: 0px;
 >>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
@@ -142,9 +150,16 @@ text-align: center;
 
 .feature-items {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	padding-top: 0;
 	margin: 0;
 	margin-top: 60px;
+=======
+	padding-top: 20px;
+
+	margin: 0;
+	margin-top: 0;
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
 =======
 	padding-top: 20px;
 
@@ -226,4 +241,7 @@ text-align: center;
 
 
 <script src="http://localhost:35729/livereload.js"></script>
+<<<<<<< HEAD
+>>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
+=======
 >>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
