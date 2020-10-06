@@ -108,7 +108,7 @@ text-align: center;
 
 
 .feature {
-	padding-top: 75px;
+	padding-top: 80px;
 	width: 1015px;
 	margin: 0 auto;
 }
@@ -116,56 +116,39 @@ text-align: center;
 .feature .container {
 	width: 800px;
 	margin: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   padding-top: 0px;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
-=======
-  padding-top: 0px;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
+  
+
 }
 
 .feature h2{
 	font-size: 40px;
 	color: black;
 	font-weight: bold;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	margin-top: 30px;
-=======
-	margin-top: 0px;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
-=======
-	margin-top: 0px;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
+
+
+
 	margin-left: 0;
 	text-transform: uppercase;
 	margin-bottom: 105px;
-  padding-top: 20px;
+  padding-top: 10px;
 
-	height: 60px;
+	line-height: 50px;
 
 }
 
 .feature-items {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	padding-top: 0;
+
 	margin: 0;
 	margin-top: 60px;
-=======
-	padding-top: 20px;
 
 	margin: 0;
 	margin-top: 0;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
-=======
+
 	padding-top: 20px;
 
-	margin: 0;
-	margin-top: 0;
->>>>>>> 6596d97697a1689f0b9e1caf619907cbc385119f
+
+
 
 
 }
@@ -179,7 +162,7 @@ text-align: center;
 	position: relative;
 	padding-left: 30px;
 	padding-right: 30px;
-  padding-top: 0;
+  padding-top: 0px;
 	box-sizing: border-box;
 
 }
@@ -187,7 +170,8 @@ text-align: center;
 .feature-item h3{
   font-size: 40px;
   text-transform: uppercase;
-  padding-top: 0;
+  padding-top: 10px;
+	margin-top: 0;
 
 }
 .feature-item:nth-child(even) {
