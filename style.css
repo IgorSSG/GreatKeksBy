@@ -141,7 +141,7 @@ text-align: center;
 }
 
 .feature-item {
-	width: 400px;
+	width: 50%;
 	float: left;
 	border-left: 1px solid black;
 	height: 760px;
