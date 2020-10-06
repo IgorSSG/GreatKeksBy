@@ -108,47 +108,34 @@ text-align: center;
 
 
 .feature {
-
-	padding-top: 47px;
-
+	padding-top: 80px;
+	width: 1015px;
 	margin: 0 auto;
-
 }
 
 .feature .container {
 	width: 800px;
 	margin: auto;
-  padding-top: 0px;
-
-
 }
 
 .feature h2{
 	font-size: 40px;
 	color: black;
 	font-weight: bold;
+	margin-top: 0px;
 	margin-left: 0;
 	text-transform: uppercase;
-	margin-bottom: 105px;
-  padding-top: 15px;
+	margin-bottom: 75px;
 
-
-	line-height: 30px;
+	line-height: 60px;
 
 }
 
 .feature-items {
 
-	margin: 0;
-
 
 	margin: 0;
 	margin-top: 0;
-
-	padding-top: 0px;
-
-
-
 
 
 }
@@ -157,12 +144,11 @@ text-align: center;
 	width: 400px;
 	float: left;
 	border-left: 1px solid black;
-	margin-top: -30px;
 	height: 760px;
 	position: relative;
 	padding-left: 30px;
 	padding-right: 30px;
-  padding-top: 0px;
+  padding-top: 0;
 	box-sizing: border-box;
 
 }
@@ -170,8 +156,7 @@ text-align: center;
 .feature-item h3{
   font-size: 40px;
   text-transform: uppercase;
-  padding-top: 10px;
-	margin-top: 0;
+  padding-top: 0;
 
 }
 .feature-item:nth-child(even) {
@@ -220,4 +205,5 @@ text-align: center;
 	height: 100px;
 }
 
-  <script src="http://localhost:35729/livereload.js"></script>
+
+<script src="http://localhost:35729/livereload.js"></script>
