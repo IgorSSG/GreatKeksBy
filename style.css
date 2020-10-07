@@ -146,9 +146,10 @@ text-align: center;
 	border-left: 1px solid black;
 	height: 760px;
 	position: relative;
-	padding-left: 30px;
+	padding-left: 34px;
 	padding-right: 30px;
-  padding-top: 0;
+  padding-top: 0px;
+	padding-bottom: 0px;
 	box-sizing: border-box;
 
 }
@@ -156,11 +157,20 @@ text-align: center;
 .feature-item h3{
   font-size: 40px;
   text-transform: uppercase;
-  padding-top: 0;
+  padding-top: 10px;
+	margin-top: 0px;
+	line-height: 40px;
+	color: black;
 
 }
 .feature-item:nth-child(even) {
 	border-right: 1px solid black;
+	padding-left: 33px;
+}
+
+.bottle-left,
+.bottle-right {
+	padding-left: 10px;
 }
 
 .feature-params {
@@ -184,6 +194,13 @@ text-align: center;
 	width: 140px;
 }
 
+.feature-item a.btn{
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
 .feature-item .btn {
 	display: inline-block;
 	text-decoration: none;
@@ -191,17 +208,31 @@ text-align: center;
 	text-transform: uppercase;
 	padding: 0 10px;
 	color: brown;
-	line-height: 32px;
+	line-height: 45px;
+	width: 120px;
+
+}
+.feature-item .btn {
+	padding-bottom: 10px;
+
+}
+
+
+.feature-item b {
+	padding-left: 20px;
 }
 
 .feature-item .btn.btn-inverse {
 	color: white;
 	background: brown;
+	vertical-align: bottom;
+	width: 90px;
 }
 
 .right-description,
 .left-description{
-
+	padding-top: 0px;
+	margin-top: 0px;
 	height: 100px;
 }
 
