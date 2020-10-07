@@ -171,13 +171,24 @@ text-align: center;
 .bottle-left,
 .bottle-right {
 	padding-left: 10px;
+	margin-right: 0px;
 }
 
 .feature-params {
 	border-collapse: collapse;
+	width: 150px;
+	height: 82px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+
+
+
+
 }
 .feature-params td {
 	padding: 0px 10px;
+
 }
 .feature-params, .feature-params td {
 	border: 1px solid #777;
@@ -187,10 +198,17 @@ text-align: center;
 	position: relative;
 }
 
+.feature-consist {
+	width: 150px;
+	font-size: 14px;
+	margin-top: -5px;
+	line-height: 25px;
+}
+
 .feature-info {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: -4px;
+	right: 6px;
 	width: 140px;
 }
 
@@ -204,14 +222,15 @@ text-align: center;
 
 .feature-item .btn {
 	display: inline-block;
-
+	margin-right: 3px;
 	text-decoration: none;
-	border: 2px solid brown;
+	border: 2px solid #844802;
 	text-transform: uppercase;
 	padding: 0 10px;
-	color: brown;
-	line-height: 45px;
-	width: 120px;
+	color: #844802;
+	line-height: 46px;
+	width: 122px;
+	text-align: center;
 
 
 
@@ -219,15 +238,16 @@ text-align: center;
 
 
 .feature-item b {
-	padding-left: 20px;
+	padding-left: 16px;
+	color: black;
 }
 
 
 .feature-item .btn.btn-inverse {
 	color: white;
-	background: brown;
+	background-color: #844802;
 	vertical-align: bottom;
-	width: 90px;
+	width: 85px;
 	text-align: center;
 }
 
@@ -240,7 +260,7 @@ text-align: center;
 
 .button-down {
 	position: absolute;
-	bottom: 2px;
+	bottom: 1px;
 }
 
 <script src="http://localhost:35729/livereload.js"></script>
