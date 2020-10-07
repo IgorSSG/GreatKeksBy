@@ -199,10 +199,12 @@ text-align: center;
 	font-weight: bold;
 
 
+
 }
 
 .feature-item .btn {
 	display: inline-block;
+
 	text-decoration: none;
 	border: 2px solid brown;
 	text-transform: uppercase;
@@ -211,9 +213,7 @@ text-align: center;
 	line-height: 45px;
 	width: 120px;
 
-}
-.feature-item .btn {
-	padding-bottom: 10px;
+
 
 }
 
@@ -222,11 +222,13 @@ text-align: center;
 	padding-left: 20px;
 }
 
+
 .feature-item .btn.btn-inverse {
 	color: white;
 	background: brown;
 	vertical-align: bottom;
 	width: 90px;
+	text-align: center;
 }
 
 .right-description,
@@ -236,5 +238,9 @@ text-align: center;
 	height: 100px;
 }
 
+.button-down {
+	position: absolute;
+	bottom: 2px;
+}
 
 <script src="http://localhost:35729/livereload.js"></script>
