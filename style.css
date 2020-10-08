@@ -264,10 +264,12 @@ text-align: center;
 }
 
 .advantages {
- height: 250px;
- padding-top: 50px;
+ height: 350px;
+ padding-top: 60px;
  padding-bottom: 55px;
  background: #ffcb78;
+ margin-top:20px;
+ box-sizing: border-box;
 
 
 }
@@ -292,10 +294,13 @@ text-align: center;
 	width: 278px;
 	padding-left: 30px;
 	padding-right: 30px;
+	padding-top: 100px;
 }
 
 .advantages-item p{
 	margin: 0px;
+	text-align: left;
+
 }
 
 .advantages-item:first-child {
@@ -317,18 +322,19 @@ text-align: center;
 .advantages-item h2 {
 	text-transform: uppercase;
 	font-size: 25px;
+	text-align: left;
 }
 
 .advantage-hendmade{
- background: url("img/brew.png") top left no-repeat;
+ background: url("img/brew.png") 10% 0% no-repeat;
 }
 
 .advantage-relative{
-  background: url("img/matreshka.png") top left no-repeat;
+  background: url("img/matreshka.png")  10% 0% no-repeat;
 }
 
 .advantage-uneconomical{
-	 background: url("img/thumbsup.png") top left no-repeat;
+	 background: url("img/thumbsup.png")  10% 0% no-repeat;
 
 }
 
