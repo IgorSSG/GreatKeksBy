@@ -458,48 +458,34 @@ text-align: center;
 }
 
 .review {
-	border: 3px solid black;
+	margin: 0px;
 	height: 360px;
 }
 
 .review .container {
-	border: 3px solid red;
 	height: inherit;
-	margin: 0px auto;
-	padding: 0px;
 }
 
-.review h2{
- margin: 0px;
- line-height: 50px;
- margin-bottom: 50px;
-}
 
-.review .btn {
-  margin: 0px;
-	padding: 0px;
-	padding-top: 50px;
-	float: left;
-}
 
-.review-list cite {
+.review h2 {
 	margin: 0px;
-	float: right;
-	padding: 0px;
-	padding-top: 50px;
-
-
 }
 
 .review-list {
-	border: 3px solid green;
 	margin: 0px;
-	padding: 0px;
+	height: 320px;
 }
 
+.review .newspaper{
+	margin: 0px;
+	height: 280px
+}
 
 .review p {
 	margin: 0px;
-	padding: 0px;
 }
+
+
+
 <script src="http://localhost:35729/livereload.js"></script>
