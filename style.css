@@ -266,7 +266,7 @@ text-align: center;
 
 .advantages {
  height: 412px;
- padding-top: 60px;
+ padding-top: 80px;
  padding-bottom: 55px;
  background: #ffcb78;
  margin-top:0;
@@ -276,7 +276,7 @@ text-align: center;
 
 }
 .advantages .container{
-	padding-top: 20px;
+	padding-top: d0px;
 
 
 
@@ -367,14 +367,15 @@ text-align: center;
 
 .history{
 	padding-top:80px;
-	padding-bottom: 70px;
 	height: 640px;
 	margin: 0px;
+
 
 }
 
 .history .container {
 	width: 800px;
+
 
 
 
@@ -531,9 +532,30 @@ text-align: center;
 	margin-right: 110px;
 }
 
-.review img {
+.items {
+	margin: 0;
+	padding-top: 65px;
+
 
 }
+
+.items h2 {
+	line-height: 60px;
+	font-size: 30px;
+	margin-bottom: 75px;
+}
+
+.items .container {
+	width:800px;
+	height: 460px;
+
+}
+
+.items-list {
+	width: inherit;
+	padding-bottom: 146px;
+}
+
 
 
 <script src="http://localhost:35729/livereload.js"></script>
