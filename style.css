@@ -534,15 +534,17 @@ text-align: center;
 
 .items {
 	margin: 0;
-	padding-top: 65px;
+	padding-top: 57px;
 
 
 }
 
 .items h2 {
 	line-height: 60px;
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 75px;
+	text-transform: uppercase;
+	color:black;
 }
 
 .items .container {
@@ -553,9 +555,65 @@ text-align: center;
 
 .items-list {
 	width: inherit;
-	padding-bottom: 146px;
+
+
 }
 
+.items-list {
+	width: 100%;
+	border-collapse: collapse;
+}
 
+.items-list td
+
+ {
+	padding: 17px 0;
+	border: 1px solid grey;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+}
+
+.items-list th {
+	font-weight: normal;
+  font-size: 10px;
+  text-align: center;
+	color: grey;
+  text-transform: uppercase;
+	padding-bottom: 30px;
+
+}
+
+.items-list th:first-child{
+	text-align: left;
+}
+
+.items-list td:first-child{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+
+.items-list th:last-child{
+	text-align: right;
+
+}
+
+.items-list td:last-child{
+	text-align: right;
+
+}
+
+.items-list sup {
+	background: black;
+	color: white;
+	font-size: 5px;
+	padding: 2px 5px;
+	margin-left: 15px;
+	font-weight: bold;
+	border-radius: 1px;
+
+}
 
 <script src="http://localhost:35729/livereload.js"></script>
