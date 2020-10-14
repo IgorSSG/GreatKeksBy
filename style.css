@@ -576,13 +576,14 @@ text-align: center;
 
 .items-list th {
 	font-weight: normal;
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
 	color: grey;
   text-transform: uppercase;
 	padding-bottom: 30px;
 
 }
+
 
 .items-list th:first-child{
 	text-align: left;
@@ -608,11 +609,11 @@ text-align: center;
 .items-list sup {
 	background: black;
 	color: white;
-	font-size: 5px;
+	font-size: 8px;
 	padding: 2px 5px;
-	margin-left: 15px;
+	margin-left: 20px;
 	font-weight: bold;
-	border-radius: 1px;
+	border-radius: 2px;
 
 }
 
