@@ -111,6 +111,7 @@ text-align: center;
 	padding-top: 80px;
 	width: 1015px;
 	margin: 0 auto;
+	margin-bottom: 60px;
 }
 
 .feature .container {
@@ -377,6 +378,7 @@ text-align: center;
 
 
 
+
 }
 
 .section-title {
@@ -461,14 +463,18 @@ text-align: center;
 .review {
 	padding-top: 80px;
 	margin: 0px;
-	height: 310px;
+	height: 400px;
+	background-color: #ede5d8;
+	background-image: url("img/quotes.png");
+	background-repeat: no-repeat;
+	background-position: bottom 229px left 135px;
 
 
 
 }
 
 .review .container {
-	height: inherit;
+
 	width: 800px;
 }
 
@@ -478,7 +484,9 @@ text-align: center;
 	margin: 0px;
 	margin-bottom: 75px;
 	line-height: 60px;
-	font-size: 30px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: black;
 
 }
 
@@ -497,14 +505,14 @@ text-align: center;
 	font-style: normal;
 	font-size: 20px;
 	font-weight: bold;
-
+	color: black;
 }
 
 .review .btn {
 	display: inline-block;
 	float: left;
 	text-decoration: none;
-	border: 1px solid transparent;
+	border: 2px solid grey;
 	text-transform: uppercase;
 	padding: 0 10px;
 	margin-bottom: 0;
@@ -512,7 +520,8 @@ text-align: center;
 	line-height: 46px;
 	width: 145px;
 	text-align: center;
-	
+
+
 
 }
 
@@ -522,6 +531,9 @@ text-align: center;
 	margin-right: 110px;
 }
 
+.review img {
+
+}
 
 
 <script src="http://localhost:35729/livereload.js"></script>
