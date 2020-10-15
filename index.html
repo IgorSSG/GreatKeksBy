@@ -179,7 +179,7 @@
         </div>
        </div>
        <div class="order">
-        <div class="container">
+        <div class="container ">
           <h2>Заказать</h2>
           <p class="order-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%</p>
           <form action="/" method="post" class="order-form">
@@ -187,20 +187,22 @@
               <label for ="name">Представьтесь:</label>
               <input type="text" id="name">
             </div>
-            <div class="order-form-group">
-              <label for ="phone">Номер телефона:</label>
-              <input type="text" id="phone">
-            </div>
-            <div class="order-form-group">
-              <label for ="phone-ext">Доп. номер:</label>
-              <input type="text" id="phone-ext">
-            </div>
+            <div class="clearfix">
+              <div class="order-form-group order-form-group-left-part">
+                <label for ="phone">Номер телефона:</label>
+                <input type="text" id="phone">
+              </div>
+              <div class="order-form-group order-form-group-right-part">
+                <label for ="phone-ext">Доп. номер:</label>
+                <input type="text" id="phone-ext">
+              </div>
+            </div
             <div class="order-form-group">
               <label for ="email">Email:</label>
               <input type="text" id="email">
             </div>
             <div class="order-form-group">
-              <label for ="value">Объем заказа:</label><br>
+              <label for ="value">Объём заказа:</label><br>
               <select name="value" id="value">
                 <option value="1">От 5 до 10 баррелей в неделю</option>
               </select>

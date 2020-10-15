@@ -468,7 +468,7 @@ text-align: center;
 	background-color: #ede5d8;
 	background-image: url("img/quotes.png");
 	background-repeat: no-repeat;
-	background-position: bottom 229px left 135px;
+	background-position: bottom 229px left 480px;
 
 
 
@@ -615,6 +615,59 @@ text-align: center;
 	font-weight: bold;
 	border-radius: 2px;
 
+}
+
+.order {
+	height: 1000px;
+	padding-top: 80px;
+
+}
+
+.order .container{
+	width: 800px;
+	
+}
+
+.order h2 {
+	line-height: 30px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.order-form-group {
+
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	color: black;
+
+}
+
+.order-form-group label{
+	display: inline-block;
+	padding: 5px 0 5px 17px;
+}
+
+.order input[type="text"],
+.order  select,
+.order textarea {
+	box-sizing: border-box;
+	width: 100%;
+	height: 54px;
+	padding: 9px 15px;
+	font: inherit;
+	color: inherit;
+	border: 2px solid #d5d5d;
+
+}
+
+.order-form-group-left-part{
+	float:left;
+}
+
+.order-form-group-right-part{
+	float:right;
 }
 
 <script src="http://localhost:35729/livereload.js"></script>
