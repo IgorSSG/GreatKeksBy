@@ -738,9 +738,17 @@ text-align: center;
 
 }
 
+.footer-top{
+	margin-bottom: 40px;
+}
+
+.footer-logo{
+	float: left;
+}
+
 .footer-menu {
 	float: right;
-	width: 600px;
+
 	margin: 10px 0 3px 60px;
 	padding: 14px 0 13px;
 	list-style: none;
@@ -762,8 +770,23 @@ text-align: center;
 
 .footer-menu a {
 	text-decoration: none;
+	color: white;
 
 }
+
+.footer-copyright{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.social{
+	float:left;
+}
+
+.developer{
+	float:right;
+}
+
 
 .developer a{
 	text-decoration: none;
