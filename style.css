@@ -619,10 +619,10 @@ text-align: center;
 }
 
 .order {
-	height: 1000px;
+	height: 999px;
 	padding-top: 80px;
 	background: #ffcb78;
-	padding-bottom: 99px;
+	padding-bottom: 98px;
 
 
 
@@ -645,7 +645,7 @@ text-align: center;
 
 .order p {
 	margin-bottom: 70px;
-	margin-right: 148px;
+	margin-right: 128px;
 }
 
 .order-form-group {
@@ -658,7 +658,7 @@ text-align: center;
 }
 
 .order-form{
-	margin-right: 150px;
+	margin-right: 163px;
 	font-weight: bold;
 }
 
@@ -698,12 +698,12 @@ text-align: center;
 
 .order-form-group-left-part{
 	float:left;
-	width: 260px;
+	width: 290px;
 }
 
 .order-form-group-right-part{
 	float:right;
-	width: 260px;
+	width: 290px;
 
 }
 
@@ -720,9 +720,53 @@ text-align: center;
 	word-wrap: break-word;
 	border: 2px solid #a38b70;
 	border-radius: 2px;
-	margin-top: 20px;
+	margin-top: 19px;
   color: #ffffff;
   background-color: #834700;
+}
+
+.footer {
+	margin: 0px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 340px;
+	background: black;
+	color: white;
+}
+
+.footer .container{
+
+}
+
+.footer-menu {
+	float: right;
+	width: 600px;
+	margin: 10px 0 3px 60px;
+	padding: 14px 0 13px;
+	list-style: none;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom{
+	border-top: 1px solid #5e5e5e;
+}
+
+
+.footer-menu li{
+	list-style :none;
+	float: left;
+	margin-right: 54.5px;
+	text-transform: uppercase;
+}
+
+.footer-menu a {
+	text-decoration: none;
+
+}
+
+.developer a{
+	text-decoration: none;
 }
 
 <script src="http://localhost:35729/livereload.js"></script>
