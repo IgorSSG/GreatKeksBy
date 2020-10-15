@@ -535,6 +535,7 @@ text-align: center;
 .items {
 	margin: 0;
 	padding-top: 57px;
+	margin-bottom: 80px;
 
 
 }
@@ -620,33 +621,55 @@ text-align: center;
 .order {
 	height: 1000px;
 	padding-top: 80px;
+	background: #ffcb78;
+	padding-bottom: 99px;
+
+
 
 }
 
 .order .container{
 	width: 800px;
-	
+
+
 }
 
 .order h2 {
-	line-height: 30px;
+	line-height: 60px;
 	font-size: 40px;
 	text-transform: uppercase;
 	color: black;
+	margin-bottom: 75px;
+	margin-top: 0px;
+}
+
+.order p {
+	margin-bottom: 70px;
+	margin-right: 148px;
 }
 
 .order-form-group {
 
-	font-size: 12px;
+
 	text-transform: uppercase;
 	margin-bottom: 16px;
 	color: black;
 
 }
 
+.order-form{
+	margin-right: 150px;
+	font-weight: bold;
+}
+
+
+
 .order-form-group label{
 	display: inline-block;
-	padding: 5px 0 5px 17px;
+	padding: 5px 0 5px 0px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .order input[type="text"],
@@ -658,16 +681,48 @@ text-align: center;
 	padding: 9px 15px;
 	font: inherit;
 	color: inherit;
-	border: 2px solid #d5d5d;
+	border: 1px solid transparent;
+	background-color: #e5b66c;
+	font-size: 15px;
 
+}
+
+.order textarea {
+	height: 130px;
+}
+
+.order  select{
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .order-form-group-left-part{
 	float:left;
+	width: 260px;
 }
 
 .order-form-group-right-part{
 	float:right;
+	width: 260px;
+
+}
+
+.order .btn {
+	display: inline-block;
+	width: 176px;
+	padding: 10px;
+	font: inherit;
+	vertical-align: top;
+	text-align: center;
+	color: #a38b70;
+	text-transform: uppercase;
+	text-decoration: none;
+	word-wrap: break-word;
+	border: 2px solid #a38b70;
+	border-radius: 2px;
+	margin-top: 20px;
+  color: #ffffff;
+  background-color: #834700;
 }
 
 <script src="http://localhost:35729/livereload.js"></script>
