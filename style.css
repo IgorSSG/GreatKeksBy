@@ -744,16 +744,19 @@ text-align: center;
 
 .footer-logo{
 	float: left;
+	margin-left: 20px;
 }
 
 .footer-menu {
-	float: right;
 
-	margin: 10px 0 3px 60px;
-	padding: 14px 0 13px;
+	float: right;
+	margin: 10px 60px 3px 60px;
+	padding:0px 0 14px;
+	padding-left: 0px;
 	list-style: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 
 .footer-bottom{
@@ -766,11 +769,17 @@ text-align: center;
 	float: left;
 	margin-right: 54.5px;
 	text-transform: uppercase;
+	padding: 0px;
+
+
+
 }
 
 .footer-menu a {
 	text-decoration: none;
 	color: white;
+	padding: 0px;
+	margin: 0px;
 
 }
 
