@@ -728,13 +728,14 @@ text-align: center;
 .footer {
 	margin: 0px;
 	padding-top: 60px;
-	padding-bottom: 45px;
+	padding-bottom: 40px;
 	height: 340px;
 	background: black;
 	color: white;
 }
 
 .footer .container{
+	width: 1015px;
 
 }
 
@@ -754,9 +755,10 @@ text-align: center;
 
 	float: right;
 	margin: 0px;
-	margin-top: 6px;
-	margin-right: 111px;
-	padding:14px 0;
+	margin-top: 7px;
+	margin-right: 108px;
+	padding:13px 0;
+
 	list-style: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -774,9 +776,11 @@ text-align: center;
 	list-style :none;
 	float: left;
 	margin: 0px;
-	margin-right: 58px;
+	margin-top: 1px;
+	margin-right: 57.5px;
 	text-transform: uppercase;
 	padding: 0px;
+	font-weight: bold;
 }
 
 .footer-menu li:last-child {
