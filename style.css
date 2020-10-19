@@ -863,8 +863,8 @@ text-align: center;
 
 .developer img {
 	display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 	background-color: #1b1b1b;
 	vertical-align: middle;
   color: #ffffff;
@@ -875,6 +875,16 @@ text-align: center;
 
 .developer a{
 	text-decoration: none;
+	color: #989898;
+}
+
+.developer span {
+	display: inline-block;
+
+font-size: 14px;
+line-height: 20px;
+vertical-align: middle;
+color: #989898;
 }
 
 <script src="http://localhost:35729/livereload.js"></script>
