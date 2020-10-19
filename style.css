@@ -466,20 +466,25 @@ text-align: center;
 	margin: 0px;
 	height: 400px;
 	background-color: #ede5d8;
-	background-image: url("img/quotes.png");
-	background-repeat: no-repeat;
-	background-position: bottom 229px left 480px;
 
 
 
 }
 
 .review .container {
-
+	position:relative;
 	width: 800px;
 }
 
-
+.review .container::before {
+  content: "";
+  position: absolute;
+  top: 140px;
+  left: -105px;
+	width: 41px;
+  height: 31px;
+	background-image: url("img/quotes.png");
+}
 
 .review h2 {
 	margin: 0px;
