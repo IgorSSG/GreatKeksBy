@@ -728,8 +728,8 @@ text-align: center;
 .footer {
 	margin: 0px;
 	padding-top: 60px;
-	padding-bottom: 40px;
-	height: 340px;
+	padding-bottom: 45px;
+	height: 350px;
 	background: black;
 	color: white;
 }
@@ -740,8 +740,9 @@ text-align: center;
 }
 
 .footer-top{
-	margin-bottom: 45px;
-	padding-left: 40px;
+	margin-bottom: 46px;
+	padding-left: 37px;
+
 	padding-bottom: 0px;
 
 }
@@ -749,6 +750,7 @@ text-align: center;
 .footer-logo{
 	float: left;
 	height: 76px;
+	width: 142px;
 }
 
 .footer-menu {
@@ -756,19 +758,21 @@ text-align: center;
 	float: right;
 	margin: 0px;
 	margin-top: 7px;
-	margin-right: 108px;
-	padding:13px 0;
-
+	margin-right: 107px;
+	padding:14px 0;
+	padding-bottom: 13px;
 	list-style: none;
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
 
 }
 
 
 
 .footer-bottom{
-	border-top: 1px solid #5e5e5e;
+
+	margin: 0px;
 }
 
 
@@ -776,11 +780,9 @@ text-align: center;
 	list-style :none;
 	float: left;
 	margin: 0px;
-	margin-top: 1px;
-	margin-right: 57.5px;
+	margin-right: 57px;
 	text-transform: uppercase;
 	padding: 0px;
-	font-weight: bold;
 }
 
 .footer-menu li:last-child {
@@ -797,11 +799,31 @@ text-align: center;
 
 .footer-copyright{
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 90px;
+	margin-top:12px;
+	margin-bottom: 16px;
+	width: 210px;
+	font-size: 14px;
+	padding: 0px 0;
+
+}
+
+.footer-copyright p {
+	margin: 0px;
+	line-height: 20px;
 }
 
 .social{
 	float:left;
+}
+.social-btn{
+	display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .developer{
